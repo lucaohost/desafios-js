@@ -27,7 +27,7 @@ com espaços vazios e com o length errado. Por exemplo:
 let a = [];
 a[0] = true;
 a[2] = true;
-console.log('Se eu iterar esse array com empty, pode ser um problema:');
+console.log('Se eu iterar esse array, ele possui um empty no meio, e isso pode gerar bugs:');
 console.log(a);
 console.log('O length está com valor ' + a.length + ', mas o array possui apenas 2 elementos.');
 
