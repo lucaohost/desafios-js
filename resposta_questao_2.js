@@ -1,4 +1,5 @@
 /**
+
 - Documentação do Processo de Resposta
 
 - Fiz um "for" para percorrer o array, guardando
@@ -37,7 +38,7 @@ a diferença de uso de memória, mas achei melhor explicar minha escolha.
 - Por fim, chamo o Object.keys() para pegar as chaves do meu objeto, que
 são os números que se repetiram.
 
- */
+*/
 
 function getRepeatedNumbers(numbers) {
   let iteratedNumbers = {};
