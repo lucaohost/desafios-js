@@ -80,20 +80,24 @@ console.log("10: " + isOrdered(2111111));
 console.log("11: " + isOrdered(1599));
 
 /*
- * 1 - Crie uma função que receba um valor INTEIRO positivo, e verifique
- * se os DÍGITOS estão em ordenação sequencial CRESCENTE ou DECRESCENTE.
- * Pode considerar dígitos iguais como sequenciais (Variação de um dígito
- *  para o outro deve ser 1 ou menor)
- * Exemplo:
- * 1:  Input 12345678 -> Está ordenado
- * 2:  Input 1223455678 -> Está ordenado
- * 3:  Input 876543210 -> Está ordenado
- * 4:  Input 152456457 -> Não está ordenado
- * 5:  Input 12356789 -> Não está ordenado
- * 6:  Input 13579 -> Não está ordenado
- * 7:  Input 9765421 -> Não está ordenado
- * 8:  Input 123454321 -> Não está ordenado
- * 9:  Input 12222222 -> Está ordenado
- * 10: Input 2111111 -> Está ordenado
- * 11: Input 1599 -> Não está ordenado
+
+Desafio 1:
+
+Crie uma função que receba um valor INTEIRO positivo, e verifique
+se os DÍGITOS estão em ordenação sequencial CRESCENTE ou DECRESCENTE.
+Pode considerar dígitos iguais como sequenciais (Variação de um dígito
+para o outro deve ser 1 ou menor)
+Exemplo:
+1:  Input 12345678 -> Está ordenado
+2:  Input 1223455678 -> Está ordenado
+3:  Input 876543210 -> Está ordenado
+4:  Input 152456457 -> Não está ordenado
+5:  Input 12356789 -> Não está ordenado
+6:  Input 13579 -> Não está ordenado
+7:  Input 9765421 -> Não está ordenado
+8:  Input 123454321 -> Não está ordenado
+9:  Input 12222222 -> Está ordenado
+10: Input 2111111 -> Está ordenado
+11: Input 1599 -> Não está ordenado
+
  */

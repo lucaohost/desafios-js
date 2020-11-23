@@ -100,8 +100,8 @@ console.log(isValidSequence("((){}[[])"));
 console.log(isValidSequence("{[("));
 
 /*
-
-3 - Crie uma função que recebe uma string com qualquer sequência dos seguintes caracteres
+Desafio 3:
+Crie uma função que recebe uma string com qualquer sequência dos seguintes caracteres
  '[', '{', '(', ')', '}', ']' e retorne se a sequência é uma sequência válida ou não. 
  Uma sequência é válida se as chaves, parênteses e colchetes abrem e fecham corretamente
 

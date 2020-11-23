@@ -44,8 +44,9 @@ console.log(getQtyPossibilitiesOrganizationForPhoto(5));
 console.log(getQtyPossibilitiesOrganizationForPhoto(15));
 
 /*
+Desafio 5:
 
-5 - Um grupo de amigos será colocado lado a lado para tirar uma foto. De quantos 
+Um grupo de amigos será colocado lado a lado para tirar uma foto. De quantos 
 modos distintos os amigos podem se organizar para tirar a foto? Desenvolva uma 
 função que receba um número de pessoas (valor inteiro) e retorne quantas 
 possibilidades de organização existem para que o fotografo saiba o número de modos

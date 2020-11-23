@@ -62,10 +62,15 @@ console.log(getRepeatedNumbers([4, 4, 4, 4, 4, 4, 4, 4]));
 console.log(getRepeatedNumbers([1, 4, 4, 4, 4, 4, 4, 0]));
 console.log(getRepeatedNumbers([1, 4, 4, 4, 4, 4, 4, 1]));
 
-/* 2 - Crie uma função que receba um array de inteiros como parâmetro e verifique se
+/* 
+
+Desafio 2:
+
+Crie uma função que receba um array de inteiros como parâmetro e verifique se
  neste array existem números duplicados, caso exista, retorne um novo array com os
  valores que se repetem.
 
  Exemplo:<br/>
 Input `[4,5,44,98,4,5,6,7]` &rarr; Output `[4,5]`
+
 */
