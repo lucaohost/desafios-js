@@ -1,6 +1,6 @@
 # Orientações:
 
-**_ Os códigos devem ser feitos em Javascript, e não se esqueça de documentar todo o processo de cada resposta. _**
+**Os códigos devem ser feitos em Javascript, e não se esqueça de documentar todo o processo de cada resposta.**
 
 # Desafios
 
