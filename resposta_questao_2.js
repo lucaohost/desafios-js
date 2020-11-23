@@ -27,9 +27,9 @@ com espaços vazios e com o length errado. Por exemplo:
 let a = [];
 a[0] = true;
 a[2] = true;
-console.log('Se eu iterar esse array com empty, vai dar ruim:');
+console.log('Se eu iterar esse array com empty, vai dar erro:');
 console.log(a);
-console.log('O array possui ' + a.length + ' elementos, só que não.');
+console.log('O length está com valor ' + a.length + ' elementos, mas o array possui apenas 2 elementos.');
 
 - Também optei em salvar como true o valor da chave, pois teoricamente
 um booleano ocupa menos espaço do que um int. É praticamente irrelevante
