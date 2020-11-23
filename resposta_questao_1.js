@@ -18,10 +18,10 @@ achar a regra e 1x para tentar achar números que infligissem a regra;
 - Por fim, decidir que ia tentar definir a regra e buscar números que
 infligissem ela (caso estivesse definida) no mesmo "for";
 
-- Nos testes, fiquei em dúvida se 852 era um número ordenado, afinal
-a variação de-3, respeitava o enunciado "Variação de um dígito para
-o outro deve ser 1 ou menor", mas o exemplo 7 elucida isso, deixando
-claro que a variação só pode ser 0 ou 1.
+- Nos testes, fiquei em dúvida se 852 era um número ordenado, porque existe 
+uma variação de -3 entre os números, o que respeita o enunciado "Variação de
+um dígito para o outro deve ser 1 ou menor". Porém o exemplo 7 elucida isso,
+deixando claro que a variação só pode ser de 0 ou 1.
 
 */
 
