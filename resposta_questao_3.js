@@ -1,26 +1,26 @@
 /*
-- Documentação do Processo de Resposta
+- Documentação do Processo de Resposta:
  
 - Eu apliquei a mesma lógica quando resolvemos uma equação
 matemática, resolvendo a partes internas, removendo os 
 parentes/colchetes/chaves que circundam a expressão.
-Por exemplo: [5 * (15 + 2)] -> [5 * 17] -> 22
+Por exemplo: [5 * (15 + 2)] -> [5 * 17] -> 22;
 
 - Na prática então, eu dei um split() na string,
 para poder percorrer o array de caracteres. Percorrendo
 ele, eu vou até achar um caracter fechador '}' ou ']'
-ou ')'.
+ou ')';
 
 - Após achar o caracter fechador, eu olho para o caracter
 anterior a ele, que deve ser um caracter abridor correspondente.
-Por exemplo, se eu achar ')', o caracter anterior deve ser '('.
+Por exemplo, se eu achar ')', o caracter anterior deve ser '(';
 
 - Se o caracter anterior estiver correto, eu dou um splice(),
 para remover o caracter anterior e o atual. Além disso
 eu zero i, para reiniciar o loop e evitar que tente iterar um 
-indice que não existe.
+indice que não existe;
 
-- Se o caracter anterior estiver incorreto, retorno 'sequencia invalida'.
+- Se o caracter anterior estiver incorreto, retorno 'sequencia invalida';
 
 - Por fim, faço uma validação adicional para pegar sequencias em que há
 apenas caracteres abridores. Por exemplo '{[('. Essa validação basicamente

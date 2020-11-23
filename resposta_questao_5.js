@@ -1,22 +1,22 @@
 /*
-- Documentação do Processo de Resposta
+- Documentação do Processo de Resposta:
 
 - Isso me lembrou alguns desafios de análise
-combinatória que já resolvi. 
+combinatória que já resolvi;
 
 - Em um exemplo com 5 amigos, na primeira posição
 posso escolher entre 5 amigos, na segunda 4 (pois
 já defini 1 amigo na primeira posição), na terceira
 3 e assim por diante. Ou seja as possibilidades são 
-5 * 4 * 3 * 2 * 1 = 120 possibilidades.
+5 * 4 * 3 * 2 * 1 = 120 possibilidades;
 
 - Pensando em conceitos de análise combinatória, isso
 se chama permutação simples. Já a multiplicação sucessiva
 dos número anteriores que utilizei para calcular, se chama 
-fatorial.
-    - Permutação: troca dos componentes influencia
+fatorial;
+    - Permutação: troca dos componentes influencia;
     - Simples: os componentes não podem se repetir, afinal 
-    uma pessoa não pode estar em 2 lugares ao mesmo tempo
+    uma pessoa não pode estar em 2 lugares ao mesmo tempo;
 
 - Por fim, optei por separar em 2 funções, pois a função
 calculateFactorial() pode eventualmente ser chamada por

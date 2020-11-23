@@ -1,5 +1,5 @@
 /*
-- Documentação do Processo de Resposta
+- Documentação do Processo de Resposta:
 
 - Eu sinto que há uma forma mais elegante
 de resolver esse problema, mas sinceramente,
@@ -20,13 +20,13 @@ o número de trabalhores naquele ano;
 1 inicial, representando o ano trabalhado
 daquele trabalhador; 
 
-- Se a chave existir, somo mais 1.
+- Se a chave existir, somo mais 1;
 
 - Enquanto faço isso, sempre guardo
 o ano com mais trabalhadores na variável
 yearMaxWorkers. E a maior quantidade
 de trabalhadores em um ano, na variável 
-qtyMaxWorkers.
+qtyMaxWorkers;
 
 - Por fim, percorro o qtyWorkersByYear,
 procurando anos em que a quantidade

@@ -1,14 +1,14 @@
 /**
 
-- Documentação do Processo de Resposta
+- Documentação do Processo de Resposta:
 
 - Fiz um "for" para percorrer o array, guardando
 cada numero percorrido como uma chave do objeto
-iteratedNumbers.
+iteratedNumbers;
 
 - Ainda nesse "for", verifico se a chave do número
 atual existe no objeto iteratedNumbers, se sim, adiciono
-uma chave no objeto repeatedNumbers.
+uma chave no objeto repeatedNumbers;
   
 - Eu usei um objetos, em vez de um arrays, porque nos próximos
 loops, não preciso percorrer o array de iteratedNumbers, para
@@ -18,7 +18,7 @@ forma evito um for dentro de for, que aumenta o custo de
 processamento exponencialmente. A mesma lógica se aplica
 para o objeto repeatedNumbers, pois teria que verificar
 se o número repetido, não já foi adicionado, pois um
-número pode se repetir mais que 1x.
+número pode se repetir mais que 1x;
   
 - Além disso, optei por utilizar um objeto com chaves,
 em vez de um array com chaves, porque manipular arrays com
@@ -33,7 +33,7 @@ console.log('O array possui ' + a.length + ' elementos, só que não.');
 
 - Também optei em salvar como true o valor da chave, pois teoricamente
 um booleano ocupa menos espaço do que um int. É praticamente irrelevante
-a diferença de uso de memória, mas achei melhor explicar minha escolha.
+a diferença de uso de memória, mas achei melhor explicar minha escolha;
 
 - Por fim, chamo o Object.keys() para pegar as chaves do meu objeto, que
 são os números que se repetiram.

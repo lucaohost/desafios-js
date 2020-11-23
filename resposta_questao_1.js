@@ -1,22 +1,22 @@
 /**
 
-- Documentação do Processo de Resposta
+- Documentação do Processo de Resposta:
 
 - Eu precisava percorrer o número, então transformei ele em uma string,
 para depois dar um split();
 
 - Depois pensei em extrair a rule, a partir dos dois primeiros números,
-mas eles poderiam ser iguais, causando um erro.
+mas eles poderiam ser iguais, causando um erro;
 
 - Então pensei, vou percorrer o array até achar um número que seja maior
 ou menor, para assim definir a regra, e depois percorrer o array buscando
-números que inflingissem essa regra.
+números que inflingissem essa regra;
 
 - Entretanto, isso faria que eu tivesse que percorrer o array 2x, 1x para
-achar a regra e 1x para tentar achar números que infligissem a regra.
+achar a regra e 1x para tentar achar números que infligissem a regra;
 
 - Por fim, decidir que ia tentar definir a regra e buscar números que
-infligissem ela (caso estivesse definida) no mesmo "for"
+infligissem ela (caso estivesse definida) no mesmo "for";
 
 - Nos testes, fiquei em dúvida se 852 era um número ordenado, afinal
 a variação de-3, respeitava o enunciado "Variação de um dígito para
