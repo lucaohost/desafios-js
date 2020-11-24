@@ -28,6 +28,16 @@ faz um regex para cada caracter e verifica se a string possui o mesmo número
 carcteres abridores de cada tipo. Por exemplo, se tiver 3 '{', é obrigatório
 que tenha 3 '}'.
 
+- Ah, mas porque eu não fiz apenas essa validação, de verificar se há
+o mesmo número de caracteres abridores e fechadores? Porque muitas vezes
+temos caracteres com seus respectivos pares, em uma expressão inválida.
+Por exemplo: "{([}])", a sequência de aberturas e fechamentos está errada,
+pelo menos do ponto de vista matemático. Agora se o intuito da função
+era apenas verificar se cada caracter abridor, tinha o mesmo número
+de caracteres fechadores, então dá pra chamar direto a função
+allCharsHasCorrespondents(), que fará essa validação sem percorrer
+o array.
+
 */
 
 function isValidSequence(sequence) {
